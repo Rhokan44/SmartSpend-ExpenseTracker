@@ -1,0 +1,19 @@
+<web-app>
+    <servlet>
+        <servlet-name>AddExpense</servlet-name>
+        <servlet-class>com.smartspend.AddExpenseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddExpense</servlet-name>
+        <url-pattern>/addExpense</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ViewExpense</servlet-name>
+        <servlet-class>com.smartspend.ViewExpenseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewExpense</servlet-name>
+        <url-pattern>/viewExpenses</url-pattern>
+    </servlet-mapping>
+</web-app>
